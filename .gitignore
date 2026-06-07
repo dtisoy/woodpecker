@@ -1,1 +1,4 @@
 lichess_puzzle
+__pycache__/
+lista_puzzles_entrenamiento
+historial_ciclos
