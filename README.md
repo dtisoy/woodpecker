@@ -9,3 +9,8 @@ Es como un repaso espaciado de puzzles de ajedrez
 
 Se usara la lista de puzzles publicada por lichess.org
 
+# ejecucion
+`>>> python main.py`
+
+
+
