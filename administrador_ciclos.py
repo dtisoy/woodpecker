@@ -17,7 +17,7 @@ def comenzar_ciclo(ciclo=1, semanas=0, dias=0):
     fecha_fin_str = fecha_final.strftime("%Y-%m-%d")
     datos = [ciclo, fecha_ini_str, fecha_fin_str]
 
-    with open(archivo_fechas, "w") as f:
+    with open(archivo_fechas, "a") as f:
         escritor = csv.writer(f)
         escritor.writerow(datos)
 
@@ -66,7 +66,6 @@ def guardar_puzzle(data):
 
 
 def abrir_sesion_entrenamiento():
-    # TODO: validar que estemos dentro de un ciclo
     # optener fecha final del ultimo ciclo:
     with open(archivo_fechas, "r") as f:
         lector = csv.reader(f)
@@ -74,20 +73,39 @@ def abrir_sesion_entrenamiento():
         ciclo_actual = filas[-1]
     # ciclo: 0, inicio: 1, fin: 2
     fecha_fin = ciclo_actual[2]
+    # definir que archivos se va a usar:
+    if int(ciclo_actual[0]) == 1:
+        f_lista_puzzles = "filtered_puzzles.csv"
+    else:
+        f_lista_puzzles = archivo_lista_puzzles
     fecha_fin = dt.strptime(fecha_fin, "%Y-%m-%d")
     hoy = dt.now()
     if fecha_fin >= hoy:
+        # ultimo puzzle resuelto
         ultimo_puzzle_idx = obtener_ultimo_puzzle() + 1
-        puzzles = obtener_puzzles("filtered_puzzles.csv")
-        # TODO: el inicio debe estar determinado por el
-        # indice del ultimo puzzle resuelto
-        for i in range(ultimo_puzzle_idx, len(puzzles)):
-            puzzle_data = puzzles[i][1]
+        puzzles = obtener_puzzles(f_lista_puzzles)
+
+        contador = ultimo_puzzle_idx
+        while contador < len(puzzles):
+            puzzle_data = puzzles[contador][1]
+            contador += 1
             puzzle_id = puzzle_data[0]
             print(formato_url_puzzle(puzzle_id))
+            # FIXME: escribir en el archivo una vez que se termine la sesion de entrenamiento
+            # FIXME: si # ciclo > 1 entonces ya no se escribe en el archivo lista puzzles entrenamiento
             guardar_puzzle(puzzle_data)
-            input()
+            continua = input(
+                "Presione Enter para el siguiente puzzle, 'q' para salir..."
+            )
+            if continua == "q":
+                # TODO: mostrar "estadisticas" del set actual
+                break
+    elif hoy > fecha_fin:
+        pass
+        # TODO: crear un nuevo ciclo
+        # TODO: settear el archivo lista de puzzles como referencia
 
 
-if __name__ == "__main__":
-    abrir_sesion_entrenamiento()
+# if __name__ == "__main__":
+    # abrir_sesion_entrenamiento()
+    # comenzar_ciclo(ciclo=2, semanas=2)
