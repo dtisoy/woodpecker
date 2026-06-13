@@ -3,18 +3,13 @@
 def mostrar_menu_principal(existe_entre = False):
     print("\t¡Bienvenido a woodpecker!".upper())
     print()
-    print("(1) Comenzar nuevo entrenamiento")
+    print("1. Generar nuevo ciclo de entrenamiento")
     if existe_entre:
-        print("(2) Continuar entrenamiento")
+        print("2. Iniciar sesión de puzzles (ciclo actual)")
     print()
     print("Presionar cualquier tecla para salir")
 
-    opcion = input("Ingresa una opcion: ")
+    opcion = input("Seleccione una opción: ")
 
     return opcion
 
-def mostrar_menu_nuevo_entrenamiento(): 
-    print()
-    print("Ingresa el numero de semanas del ciclo inicial. (por defecto 4 semanas)")
-    semanas = input("Presiona enter para la configuracion por defecto: ")
-    return semanas
