@@ -149,8 +149,10 @@ def abrir_sesion_entrenamiento():
                 actualizar_info_ciclo_actual(contador)
                 break
         actualizar_info_ciclo_actual(contador)
-        print("Felicidades haz completado el set de puzzles para este ciclo")
+        if contador == cantidad_puzzles:
 
+            print("Felicidades haz completado el set de puzzles para este ciclo")
 
-if __name__ == "__main__":
-    configuracion_inicial()
+        else:
+            print("Haz terminado tu sesion de entrenamiento")
+            print("Saliendo")
