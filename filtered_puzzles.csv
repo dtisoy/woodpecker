@@ -1,201 +1,201 @@
-PuzzleId,Rating
-0000D,1491
-0008Q,1385
-000lC,1402
-001Fg,1395
-001wR,1179
-002bK,1129
-003S3,1405
-003UW,1476
-003eP,1156
-003r5,1107
-0040n,1296
-0048h,1164
-004BW,1432
-004JD,1297
-004LZ,1187
-004Lu,1269
-004mT,1392
-004u0,1326
-0054a,1455
-005Bm,1204
-005nD,1142
-005wJ,1389
-0068B,1401
-006HV,1163
-006RM,1448
-00761,1420
-007eS,1306
-007tv,1128
-008D5,1408
-008tL,1111
-009BH,1384
-009FP,1234
-009oc,1144
-009zS,1378
-00AB1,1154
-00AHY,1358
-00AdI,1274
-00Af3,1141
-00AhO,1259
-00B3B,1431
-00BCa,1463
-00BJm,1198
-00BM8,1457
-00BSo,1267
-00Bp0,1234
-00Bul,1330
-00CWE,1386
-00DBP,1300
-00G7g,1297
-00G81,1412
-00GY4,1167
-00Gvr,1134
-00H1C,1242
-00HoG,1496
-00Hut,1278
-00Hxb,1125
-00ICz,1184
-00InW,1475
-00J1Y,1161
-00JR7,1442
-00KHR,1454
-00KSB,1497
-00KYU,1256
-00Kbj,1468
-00L4x,1260
-00LNB,1127
-00LOy,1476
-00LPw,1175
-00LUV,1483
-00M1q,1438
-00MFe,1295
-00MeO,1363
-00N3B,1218
-00NUS,1374
-00O3h,1150
-00O8m,1386
-00O9q,1247
-00OCQ,1127
-00Oim,1213
-00PHg,1404
-00PUc,1421
-00Pr6,1475
-00QCe,1430
-00QZ3,1214
-00QnO,1472
-00Qpu,1291
-00R0l,1243
-00ROK,1364
-00SCA,1297
-00SUF,1344
-00SgB,1225
-00SsI,1152
-00SyL,1361
-00TOt,1381
-00TQf,1196
-00Ta0,1178
-00Tge,1177
-00TiV,1136
-00Tya,1263
-00V0G,1122
-00VoA,1479
-00WiB,1337
-00WlQ,1480
-00WqT,1432
-00X0Q,1425
-00X5a,1335
-00X5w,1211
-00XQ8,1487
-00YbZ,1347
-00Ybq,1192
-00ZSd,1352
-00ZWf,1351
-00ZeT,1480
-00Zwc,1254
-00aDl,1438
-00bJi,1485
-00bTs,1101
-00cy1,1181
-00d9q,1116
-00dCs,1338
-00dnp,1304
-00eGd,1264
-00eQx,1148
-00eix,1440
-00fXd,1370
-00ft3,1264
-00fwM,1183
-00g5H,1367
-00gH0,1347
-00gsT,1454
-00hAC,1491
-00hSr,1121
-00hYk,1277
-00hpL,1251
-00i6P,1345
-00isc,1459
-00iyx,1153
-00j3i,1378
-00jCD,1389
-00jPH,1379
-00jPw,1117
-00kS9,1466
-00kZF,1308
-00l68,1287
-00l7Y,1487
-00lvP,1470
-00m6L,1364
-00mFI,1275
-00moS,1331
-00n3G,1135
-00nFD,1228
-00nHy,1271
-00nQp,1146
-00nji,1142
-00noA,1258
-00oQO,1430
-00ofO,1487
-00ouE,1264
-00pBn,1491
-00pVS,1317
-00qX2,1225
-00qoE,1278
-00rCs,1309
-00rYo,1104
-00rx9,1306
-00s16,1168
-00s9L,1142
-00sTO,1386
-00sw5,1172
-00t2W,1388
-00tB9,1244
-00tZP,1225
-00tei,1367
-00u3h,1227
-00uDH,1279
-00wPZ,1413
-00xDa,1279
-00xsd,1209
-00xte,1338
-00xxi,1439
-00yP0,1405
-00ySR,1374
-00yWQ,1268
-00yjj,1454
-00zNz,1139
-010Yv,1373
-011J1,1243
-011Un,1423
-012Dg,1363
-0135i,1482
-013hi,1205
-01485,1139
-014gw,1140
-014p4,1243
-014vH,1213
-0155R,1328
-015mX,1334
-016I9,1140
-017AB,1165
-017c1,1103
+PuzzleId,Rating,Themes
+0000D,1491,advantage endgame short
+0008Q,1385,advantage endgame rookEndgame short
+000lC,1402,advantage hangingPiece middlegame short
+001Fg,1395,advantage middlegame veryLong
+001wR,1179,endgame long mate mateIn3
+002bK,1129,advantage endgame hangingPiece short
+003S3,1405,advantage middlegame pin short
+003UW,1476,advantage endgame queenEndgame short
+003eP,1156,crushing exposedKing long middlegame skewer
+003r5,1107,crushing fork middlegame short
+0040n,1296,advancedPawn advantage endgame short
+0048h,1164,crushing endgame exposedKing long rookEndgame
+004BW,1432,advantage master middlegame short
+004JD,1297,cornerMate endgame mate mateIn1 oneMove
+004LZ,1187,advancedPawn crushing defensiveMove deflection endgame long promotion
+004Lu,1269,advancedPawn advantage endgame exposedKing long master
+004mT,1392,advantage endgame short skewer
+004u0,1326,advantage endgame short
+0054a,1455,advantage middlegame short
+005Bm,1204,endgame mate mateIn2 pin short
+005nD,1142,fork mate mateIn2 middlegame short
+005wJ,1389,hangingPiece mate mateIn1 oneMove opening
+0068B,1401,crushing deflection middlegame short
+006HV,1163,endgame mate mateIn2 short
+006RM,1448,crushing long middlegame
+00761,1420,attraction crushing endgame exposedKing fork long sacrifice
+007eS,1306,advantage endgame short
+007tv,1128,advantage attackingF2F7 long middlegame skewer
+008D5,1408,advantage fork master opening short
+008tL,1111,advancedPawn crushing endgame master rookEndgame short
+009BH,1384,endgame mate mateIn2 pin short
+009FP,1234,advantage opening short trappedPiece
+009oc,1144,endgame mate mateIn2 short
+009zS,1378,advantage discoveredAttack discoveredCheck exposedKing long middlegame
+00AB1,1154,crushing endgame short skewer
+00AHY,1358,advantage endgame long
+00AdI,1274,crushing discoveredAttack discoveredCheck endgame long master
+00Af3,1141,advancedPawn bishopEndgame crushing endgame short
+00AhO,1259,advantage clearance long master middlegame trappedPiece
+00B3B,1431,crushing endgame short
+00BCa,1463,advancedPawn crushing endgame long master promotion
+00BJm,1198,advantage fork hangingPiece middlegame short
+00BM8,1457,advantage master middlegame short trappedPiece
+00BSo,1267,advantage endgame short
+00Bp0,1234,advantage capturingDefender middlegame short
+00Bul,1330,advantage discoveredAttack discoveredCheck opening short
+00CWE,1386,endgame mate mateIn1 oneMove
+00DBP,1300,advantage endgame master short
+00G7g,1297,advantage middlegame short
+00G81,1412,crushing defensiveMove endgame long rookEndgame
+00GY4,1167,endgame mate mateIn1 oneMove
+00Gvr,1134,advantage bishopEndgame defensiveMove endgame master short
+00H1C,1242,mate mateIn1 middlegame oneMove swallowstailMate
+00HoG,1496,mate mateIn1 middlegame oneMove
+00Hut,1278,mate mateIn1 middlegame oneMove
+00Hxb,1125,endgame mate mateIn1 oneMove operaMate
+00ICz,1184,crushing long middlegame skewer
+00InW,1475,crushing defensiveMove endgame hangingPiece knightEndgame long
+00J1Y,1161,deflection endgame mate mateIn2 short
+00JR7,1442,kingsideAttack long mate mateIn3 middlegame
+00KHR,1454,endgame mate mateIn2 short
+00KSB,1497,crushing endgame short
+00KYU,1256,mate mateIn2 middlegame short
+00Kbj,1468,endgame long mate mateIn3 rookEndgame
+00L4x,1260,advancedPawn crushing kingsideAttack middlegame promotion short
+00LNB,1127,endgame mate mateIn2 operaMate sacrifice short
+00LOy,1476,crushing endgame short
+00LPw,1175,mate mateIn1 middlegame oneMove
+00LUV,1483,crushing endgame long
+00M1q,1438,advantage long middlegame pin
+00MFe,1295,endgame mate mateIn2 short
+00MeO,1363,advantage middlegame short
+00N3B,1218,crushing long middlegame
+00NUS,1374,mate mateIn2 middlegame short
+00O3h,1150,crushing defensiveMove endgame short
+00O8m,1386,crushing fork middlegame short
+00O9q,1247,endgame master mate mateIn1 oneMove
+00OCQ,1127,mate mateIn2 middlegame queensideAttack sacrifice short
+00Oim,1213,advancedPawn advantage middlegame sacrifice short
+00PHg,1404,advancedPawn advantage clearance endgame long promotion
+00PUc,1421,advantage attraction exposedKing fork long middlegame sacrifice
+00Pr6,1475,kingsideAttack long mate mateIn3 middlegame sacrifice
+00QCe,1430,crushing endgame fork short
+00QZ3,1214,mate mateIn2 opening short
+00QnO,1472,crushing fork intermezzo middlegame short
+00Qpu,1291,mate mateIn1 middlegame oneMove
+00R0l,1243,advantage opening short
+00ROK,1364,endgame mate mateIn2 short
+00SCA,1297,crushing endgame fork long
+00SUF,1344,crushing endgame knightEndgame long master
+00SgB,1225,advantage exposedKing kingsideAttack long middlegame
+00SsI,1152,endgame mate mateIn2 short
+00SyL,1361,capturingDefender crushing opening short
+00TOt,1381,crushing endgame short
+00TQf,1196,endgame mate mateIn2 short
+00Ta0,1178,crushing endgame fork short
+00Tge,1177,crushing endgame short
+00TiV,1136,crushing endgame short skewer
+00Tya,1263,kingsideAttack mate mateIn2 middlegame sacrifice short
+00V0G,1122,endgame mate mateIn2 rookEndgame short
+00VoA,1479,advantage middlegame short
+00WiB,1337,advantage long master middlegame
+00WlQ,1480,crushing middlegame short
+00WqT,1432,mate mateIn2 middlegame short
+00X0Q,1425,advancedPawn crushing endgame long promotion rookEndgame
+00X5a,1335,endgame master mate mateIn1 oneMove
+00X5w,1211,advantage middlegame short
+00XQ8,1487,advantage discoveredAttack endgame long
+00YbZ,1347,endgame mate mateIn2 pin short
+00Ybq,1192,crushing fork master middlegame short
+00ZSd,1352,crushing endgame long pin
+00ZWf,1351,crushing middlegame short trappedPiece
+00ZeT,1480,crushing endgame pin short
+00Zwc,1254,endgame mate mateIn1 oneMove
+00aDl,1438,attraction mate mateIn2 middlegame queensideAttack sacrifice short
+00bJi,1485,endgame hookMate mate mateIn1 oneMove
+00bTs,1101,advantage fork master middlegame short
+00cy1,1181,advancedPawn advantage master middlegame pin short
+00d9q,1116,attraction crushing deflection master middlegame short
+00dCs,1338,advantage middlegame short
+00dnp,1304,crushing endgame fork master queenRookEndgame short
+00eGd,1264,crushing endgame rookEndgame short
+00eQx,1148,crushing endgame short
+00eix,1440,crushing fork long middlegame
+00fXd,1370,endgame master mate mateIn1 oneMove
+00ft3,1264,crushing endgame fork short
+00fwM,1183,mate mateIn2 opening short
+00g5H,1367,advantage deflection endgame long
+00gH0,1347,backRankMate endgame long mate mateIn3 sacrifice
+00gsT,1454,crushing middlegame short
+00hAC,1491,advantage long middlegame
+00hSr,1121,kingsideAttack mate mateIn2 middlegame short
+00hYk,1277,crushing endgame short
+00hpL,1251,crushing endgame pawnEndgame veryLong
+00i6P,1345,advantage endgame long quietMove
+00isc,1459,middlegame
+00iyx,1153,advantage middlegame short
+00j3i,1378,endgame long mate mateIn3 sacrifice
+00jCD,1389,advantage discoveredAttack middlegame short
+00jPH,1379,advantage fork middlegame short
+00jPw,1117,mate mateIn1 middlegame oneMove pin
+00kS9,1466,advantage hangingPiece long middlegame
+00kZF,1308,crushing discoveredAttack discoveredCheck middlegame short
+00l68,1287,endgame long mate mateIn3
+00l7Y,1487,advantage deflection long middlegame pin
+00lvP,1470,advantage deflection endgame veryLong
+00m6L,1364,crushing defensiveMove endgame long pawnEndgame zugzwang
+00mFI,1275,kingsideAttack mate mateIn2 middlegame short
+00moS,1331,crushing long middlegame
+00n3G,1135,advantage deflection middlegame pin short
+00nFD,1228,advantage master middlegame short
+00nHy,1271,crushing discoveredAttack middlegame short
+00nQp,1146,crushing middlegame short
+00nji,1142,advantage endgame short
+00noA,1258,endgame long mate mateIn3 operaMate
+00oQO,1430,crushing endgame fork master short
+00ofO,1487,crushing endgame short
+00ouE,1264,attraction endgame mate mateIn2 sacrifice short
+00pBn,1491,advancedPawn crushing endgame master rookEndgame short
+00pVS,1317,advantage fork middlegame short
+00qX2,1225,mate mateIn2 middlegame short triangleMate
+00qoE,1278,kingsideAttack mate mateIn1 middlegame oneMove
+00rCs,1309,advantage endgame long
+00rYo,1104,crushing endgame fork master masterVsMaster short
+00rx9,1306,crushing discoveredAttack middlegame short
+00s16,1168,crushing fork opening short
+00s9L,1142,advantage middlegame short
+00sTO,1386,crushing endgame long
+00sw5,1172,kingsideAttack master mate mateIn2 middlegame short
+00t2W,1388,crushing long middlegame
+00tB9,1244,advantage middlegame pin queensideAttack short
+00tZP,1225,crushing kingsideAttack middlegame short
+00tei,1367,crushing endgame master masterVsMaster short
+00u3h,1227,endgame mate mateIn1 oneMove
+00uDH,1279,advancedPawn crushing endgame sacrifice short
+00wPZ,1413,kingsideAttack mate mateIn2 opening sacrifice short smotheredMate
+00xDa,1279,endgame master mate mateIn1 oneMove operaMate
+00xsd,1209,advantage fork opening short
+00xte,1338,crushing endgame long
+00xxi,1439,advancedPawn crushing defensiveMove endgame promotion quietMove rookEndgame veryLong
+00yP0,1405,advantage endgame long pin
+00ySR,1374,endgame mate mateIn1 oneMove
+00yWQ,1268,crushing endgame master masterVsMaster short
+00yjj,1454,crushing long middlegame
+00zNz,1139,mate mateIn2 opening short
+010Yv,1373,advantage middlegame short
+011J1,1243,advantage discoveredAttack endgame short
+011Un,1423,crushing endgame short
+012Dg,1363,advantage opening short
+0135i,1482,advancedPawn advantage endgame long master masterVsMaster promotion rookEndgame
+013hi,1205,crushing discoveredAttack endgame fork long
+01485,1139,mate mateIn1 middlegame oneMove
+014gw,1140,attackingF2F7 mate mateIn1 middlegame oneMove
+014p4,1243,crushing master middlegame short
+014vH,1213,crushing fork middlegame short
+0155R,1328,crushing intermezzo long middlegame
+015mX,1334,mate mateIn1 middlegame oneMove
+016I9,1140,endgame mate mateIn1 oneMove
+017AB,1165,advancedPawn crushing deflection endgame promotion rookEndgame short
+017c1,1103,crushing discoveredAttack endgame rookEndgame short
