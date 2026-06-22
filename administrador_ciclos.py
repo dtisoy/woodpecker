@@ -134,7 +134,15 @@ def abrir_sesion_entrenamiento():
             if ciclo_actual["limite_puzzles"]
             else len(puzzles)
         )
-
+        # info para el usuario
+        titulo_entrenamiento = "Empezando entrenamiento..."
+        fin_ciclo = ciclo_actual["fin"]
+        fin_ciclo = fin_ciclo.strftime("%B %d, %Y")
+        mensaje_inicial = f"Ciclo actual: {ciclo_actual["ciclo"]}, fin del ciclo: {fin_ciclo}"
+        print()
+        print(titulo_entrenamiento)
+        print(mensaje_inicial)
+        print()
         contador = ultimo_puzzle
         while contador < cantidad_puzzles:
             # TODO: si el ciclo es > 1 entonces los puzzles se limitan a los # puzzles resueltos del ciclo anterior
