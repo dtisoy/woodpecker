@@ -73,7 +73,7 @@ def actualizar_info_ciclo_actual(puzzles_resueltos):
     # # ciclo: 0, inicio: 1, fin: 2, # puzzles: 3
     info_general[-1][3] = puzzles_resueltos
 
-    with open(archivo_fechas, "w") as f:
+    with open(archivo_fechas, "w", newline="") as f:
         escritor = csv.writer(f)
         escritor.writerows(info_general)
 
@@ -92,11 +92,11 @@ def formato_url_puzzle(puzzle_id):
 
 
 def crear_entrenamiento_estatico():
-    # TODO: reducir el ciclo anterior a la mitad
     # ciclo 1 = 4, ciclo 2 = 2, ciclo 3 = 1, ciclo 4 = 6 dias, ciclo 5 = 3 dias, ciclo 6 = 1 dia
-    # obtener ultimo ciclo
+
     ultimo_ciclo = obtener_info_ciclo_actual()
     numero_ciclo = ultimo_ciclo["ciclo"]
+
     # en futuras versiones puede ser dinamico
     match numero_ciclo:
         case 1:
@@ -115,12 +115,14 @@ def abrir_sesion_entrenamiento():
     ciclo_actual = obtener_info_ciclo_actual()
 
     hoy = dt.now()
+
     if ciclo_actual["fin"] < hoy:
         print(f"Se ha iniciado el ciclo de entrenamiento {ciclo_actual["ciclo"]+1} ")
         crear_entrenamiento_estatico()
-        # se usará el nuevo ciclo creado
         ciclo_actual = obtener_info_ciclo_actual()
+
     # FIXME: este if se puede eliminar
+
     if ciclo_actual["fin"] >= hoy:
         # ultimo puzzle resuelto
         ultimo_puzzle = ciclo_actual["puzzles_resueltos"]
@@ -139,20 +141,40 @@ def abrir_sesion_entrenamiento():
             puzzle_data = puzzles[contador][1]
             contador += 1
             puzzle_id = puzzle_data[0]
-            print(formato_url_puzzle(puzzle_id))
 
+            # info para el usuario
+            num_puzzle = f"{contador}/{cantidad_puzzles}"
+            elo = puzzle_data[1]
+            tema = puzzle_data[2]
+            tema = "/".join(tema.split())
+            mensaje = f"Puzzle {num_puzzle} | Elo: {elo} | Tema: {tema}"
+            enlace = formato_url_puzzle(puzzle_id) 
+            margen = "-"*(len(enlace)+8)
+            print(margen)
+            print(mensaje)
+            print(f"Link: {enlace}")
+            print(margen)
+            print()
             continua = input(
-                "Presione Enter para el siguiente puzzle, 'q' para salir..."
+                "Presione Enter para el siguiente puzzle, 'q' para salir... "
             )
+            print()
             if continua == "q":
                 # TODO: mostrar "estadisticas" del set actual
                 actualizar_info_ciclo_actual(contador)
+                print("[+] progreso guardado" )
+                print()
                 break
+
         actualizar_info_ciclo_actual(contador)
+
         if contador == cantidad_puzzles:
 
             print("Felicidades haz completado el set de puzzles para este ciclo")
 
         else:
+            
             print("Haz terminado tu sesion de entrenamiento")
-            print("Saliendo")
+            print()
+            print("Saliendo".upper())
+            print()
